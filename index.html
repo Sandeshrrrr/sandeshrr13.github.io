@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>My Todo List</title>
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: "Roboto", "Times New Roman", Times, serif;
+      font-size: 16px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      font-size: 36px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+    form {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    input[type="text"] {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      width: 300px;
+      font-size: 16px;
+      color: #333;
+      margin-right: 10px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"]::placeholder {
+      color: #999;
+    }
+    button[type="submit"] {
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button[type="submit"]:hover {
+      background-color: #555;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    li button {
+      background-color: transparent;
+      border: none;
+      color: #999;
+      font-size: 16px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    li button:hover {
+      color: #333;
+    }
+    li input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    li.completed {
+      text-decoration: line-through;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Todo List</h1>
+  <form id="todo-form">
+    <input type="text" id="todo-input" placeholder="Add a new task...">
+    <button type="submit">Add</button>
+  </form>
+  <ul id="todo-list"></ul>
+  <img src="brenttodolist.jpg" width="350" height="600">
+  <img src="chrisheriatodolisy.jpg" width="350" height="600">
+  <img src="vcrtodolist.jpeg" width="370" height="600">
+  <img src="okdkk13.jpeg" width="340" height="600">
+</body>
+</html>
+<head>
+<h1 style="text-align: center;"></h1>
+<button id="start-button">START?</button>
+<script>
+  // JavaScript code goes here
+  const startButton = document.getElementById("start-button");
+  const audio = new Audio("JACKIE13BROWN.mp3");
+
+  startButton.addEventListener("click", () => {
+    audio.play();
+    startButton.style.display = "none";
+  });
+</script>
+</head>
+<body>
+<audio autoplay>
+  <source src="JACKIE13BROWN.mp3" type="audio/mp3">
+</audio>
+</body>
+</html>
+
+<div class="container">
+  <div class="box">
+    <h2>Box 1</h2>
+    <video width="100%" height="315" controls>
+      <source src="b5d8xdpljva81.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>Brent Faiyaz1</p>
+  </div>
+  <div class="box">
+    <h2>Box 2</h2>
+    <video width="100%" height="315" controls>
+      <source src="rc8ui8o3f0y71.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>Brent Faiyaz2</p>
+  </div>
+  <div class="box">
+    <h2>Box 3</h2>
+    <video width="100%" height="315" controls>
+      <source src="c6daheyu9rn81.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>Brent Faiyaz3</p>
+  </div>
+</div>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .box {
+    flex: 1 0 calc(33.33% - 20px);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    text-align: center;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="loader"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<div class="water"></div>
+<div class="scene">
+  <div class="bee">
+    <div class="wing_right wing"></div>
+    <div class="wing_left wing"></div>
+    <div class="antenna_right antenna"></div>
+    <div class="antenna_left antenna"></div>
+    <div class="bee_face front"></div>
+    <div class="bee_face back"></div>
+    <div class="bee_face right"></div>
+    <div class="bee_face left"></div>
+    <div class="bee_face top"></div>
+    <div class="bee_face bottom"></div>
+    <div class="leg_right leg_right_one leg"></div>
+    <div class="leg_right leg_right_two leg"></div>
+    <div class="leg_right leg_right_three leg"></div>
+    <div class="leg_left leg_left_one leg"></div>
+    <div class="leg_left leg_left_two leg"></div>
+    <div class="leg_left leg_left_three leg"></div>
+    <div class="stinger"></div>
+  </div>
+  <div class="cube">
+    <div class="rose">
+      <div class="rose_first rose_part"></div>
+      <div class="rose_second rose_part"></div>
+    </div>
+    <div class="cube_face front"></div>
+    <div class="cube_face back"></div>
+    <div class="cube_face right"></div>
+    <div class="cube_face left"></div>
+    <div class="cube_face top"></div>
+    <div class="cube_face bottom"></div>
+    <div class="ground"></div>
+    <div class="grass">
+      <div class="grass_first grass_part"></div>
+      <div class="grass_second grass_part"></div>
+    </div>
+  </div>
+</div>
+<div id="author">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+  
+</div>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="loader"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<img src="https://i.ibb.co/hL3PyqY/bee.png" alt="bee" style="position: fixed; right: 0;">
+
+<div class="water"></div>
+<div class="scene">
+  <div class="bee">
+    <div class="wing_right wing"></div>
+    <div class="wing_left wing"></div>
+    <div class="antenna_right antenna"></div>
+    <div class="antenna_left antenna"></div>
+    <div class="bee_face front"></div>
+    <div class="bee_face back"></div>
+    <div class="bee_face right"></div>
+    <div class="bee_face left"></div>
+    <div class="bee_face top"></div>
+    <div class="bee_face bottom"></div>
+    <div class="leg_right leg_right_one leg"></div>
+    <div class="leg_right leg_right_two leg"></div>
+    <div class="leg_right leg_right_three leg"></div>
+    <div class="leg_left leg_left_one leg"></div>
+    <div class="leg_left leg_left_two leg"></div>
+    <div class="leg_left leg_left_three leg"></div>
+    <div class="stinger"></div>
+  </div>
+  <div class="cube">
+    <div class="rose">
+      <div class="rose_first rose_part"></div>
+      <div class="rose_second rose_part"></div>
+    </div>
+    <div class="cube_face front"></div>
+    <div class="cube_face back"></div>
+    <div class="cube_face right"></div>
+    <div class="cube_face left"></div>
+    <div class="cube_face top"></div>
+    <div class="cube_face bottom"></div>
+    <div class="ground"></div>
+    <div class="grass">
+      <div class="grass_first grass_part"></div>
+      <div class="grass_second grass_part"></div>
+    </div>
+  </div>
+</div>
+<div id="author">
+
+</div>
